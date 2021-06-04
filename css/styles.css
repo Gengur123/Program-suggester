@@ -1,13 +1,16 @@
 .container button {
   background-color:skyblue;
 }
-
+h2, h3{
+  text-align: center;
+}
 #Q1 {
   width: 500px;
   border: solid green;
   border-width: 1px;
   background-color:lightgreen;
   margin-bottom: 20px;
+  margin-left: 305px;
   box-sizing: border-box;
   text-align: center;
   }
@@ -19,6 +22,7 @@
   border-width: 1px;
   background-color:lightgreen;
   margin-bottom: 20px;
+  margin-left: 305px;
   box-sizing: border-box;
   text-align: center;
 }
@@ -29,6 +33,7 @@
   border-width: 1px;
   background-color:lightgreen;
   margin-bottom: 20px;
+  margin-left: 305px;
   box-sizing: border-box;
   text-align: center;
 }
@@ -39,6 +44,7 @@
   border-width: 1px;
   background-color:lightgreen;
   margin-bottom: 20px;
+  margin-left: 305px;
   box-sizing: border-box;
   text-align: center;
 }
@@ -49,6 +55,7 @@
   border-width: 1px;
   background-color:lightgreen;
   margin-bottom: 20px;
+  margin-left: 305px;
   box-sizing: border-box;
   text-align: center;
 }
