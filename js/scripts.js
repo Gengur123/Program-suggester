@@ -61,5 +61,10 @@ $(document).ready(function() {
     }
     else
       $("h2#output").text("You should learn them all! Since you can't make up your mind!")
+    $("Q5").hide();
+    $("Q6").show();
+  });
+  
+  $("form#Q6").submit(function(event) {
   });
 });
