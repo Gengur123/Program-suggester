@@ -18,7 +18,6 @@ $(document).ready(function() {
     event.preventDefault();
     const a1 = $("input:radio[name=a1]:checked").val();
     checkAnswer(a1)
-    console.log(count_java + ", " + count_ruby + ", " + count_python)
     $("#Q1").hide();
     $("#Q2").show();
   });
@@ -27,7 +26,6 @@ $(document).ready(function() {
     event.preventDefault();
     const a2 = $("input:radio[name=a2]:checked").val();
     checkAnswer(a2)
-    console.log(count_java + ", " + count_ruby + ", " + count_python)
   $("#Q2").hide();
   $("#Q3").show();
   });
@@ -36,7 +34,6 @@ $(document).ready(function() {
     event.preventDefault();
     const a3 = $("input:radio[name=a3]:checked").val();
     checkAnswer(a3)
-    console.log(count_java + ", " + count_ruby + ", " + count_python)
   $("#Q3").hide();
   $("#Q4").show();
   });
@@ -45,7 +42,6 @@ $(document).ready(function() {
     event.preventDefault();
     const a4 = $("input:radio[name=a4]:checked").val();
     checkAnswer(a4)
-    console.log(count_java + ", " + count_ruby + ", " + count_python)
   $("#Q4").hide();
   $("#Q5").show();
   });
@@ -54,6 +50,16 @@ $(document).ready(function() {
     event.preventDefault();
     const a5 = $("input:radio[name=a5]:checked").val();
     checkAnswer(a5)
-    console.log(count_java + ", " + count_ruby + ", " + count_python)
+    if (count_python > count_ruby && count_python > count_java){
+      $("h2#output").text("You got python!!!")
+    }
+    else if(count_ruby > count_python && count_ruby > count_java){
+      $("h2#output").text("You got ruby!!!")
+    }
+    else if(count_java > count_python && count_java > count_ruby){
+      $("h2#output").text("You got Java!!!")
+    }
+    else
+      $("h2#output").text("You should learn them all!!!")
   });
 });
