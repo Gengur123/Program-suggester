@@ -51,15 +51,15 @@ $(document).ready(function() {
     const a5 = $("input:radio[name=a5]:checked").val();
     checkAnswer(a5)
     if (count_python > count_ruby && count_python > count_java){
-      $("h2#output").text("You got python!!!")
+      $("h2#output").text("You should learn python! Python is a great language to learn if you like to mess around.")
     }
     else if(count_ruby > count_python && count_ruby > count_java){
-      $("h2#output").text("You got ruby!!!")
+      $("h2#output").text("You should learn Ruby! Ruby is a great language to learn to get a job.")
     }
     else if(count_java > count_python && count_java > count_ruby){
-      $("h2#output").text("You got Java!!!")
+      $("h2#output").text("You should learn Javascript! Javascript is a great language since its so versitile. ")
     }
     else
-      $("h2#output").text("You should learn them all!!!")
+      $("h2#output").text("You should learn them all! Since you can't make up your mind!")
   });
 });
