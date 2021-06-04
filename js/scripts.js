@@ -1,8 +1,26 @@
 $(document).ready(function() {
+  var count_python = 0;
+  var count_ruby = 0;
+  var count_java = 0;
+  function checkAnswer(answer){
+    if (answer === "fun"){
+      count_python += 1
+    }
+    else if (answer === "job"){
+      count_ruby += 1
+    }
+    else if (answer === "yikes"){
+      count_java += 1
+    }
+  }
+
   $("form#Q1").submit(function(event) {
     event.preventDefault();
-  $("#Q1").hide();
-  $("#Q2").show();
+    const a1 = $("input:radio[name=a1]:checked").val();
+    checkAnswer(a1)
+    console.log(count_java + ", " + count_ruby + ", " + count_python)
+    $("#Q1").hide();
+    $("#Q2").show();
   });
   $("form#Q2").submit(function(event) {
     event.preventDefault();
