@@ -2,15 +2,53 @@
   background-color:skyblue;
 }
 
+#Q1 {
+  width: 500px;
+  border: solid green;
+  border-width: 1px;
+  background-color:lightgreen;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  }
+
 #Q2 {
   display: none;
+  width: 500px;
+  border: solid green;
+  border-width: 1px;
+  background-color:lightgreen;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  text-align: center;
 }
 #Q3 {
-  display: none;
+  display: none
+  ;width: 500px;
+  border: solid green;
+  border-width: 1px;
+  background-color:lightgreen;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  text-align: center;
 }
 #Q4 {
   display: none;
+  width: 500px;
+  border: solid green;
+  border-width: 1px;
+  background-color:lightgreen;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  text-align: center;
 }
 #Q5 {
   display: none;
+  width: 500px;
+  border: solid green;
+  border-width: 1px;
+  background-color:lightgreen;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  text-align: center;
 }
