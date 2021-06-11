@@ -3,7 +3,7 @@ $(document).ready(function() {
   var count_ruby = 0;
   var count_java = 0;
   function checkAnswer(answer){
-    if (answer === "fun"){
+    if(answer === "fun"){
       count_python += 1;
     }
     else if (answer === "job"){
